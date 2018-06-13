@@ -1,10 +1,11 @@
-def display_rainbow ("r","o","y","g","b","i","v")
-puts "The first color is: #{display_rainbow[0]}"
-puts "The second color: #{display_rainbow[1]}"
-puts "The third color is: #{display_rainbow[2]}"
-puts "The forth color is: #{display_rainbow[3]}"
-puts "The fifth color is: #{display_rainbow[4]}"
-puts "The sixth color is: #{display_rainbow[5]}"
-puts "The seventh color is: #{display_rainbow[6]}"
+def display_rainbow (test)
+puts "The first color is: #{test[0]}"
+puts "The second color: #{test[1]}"
+puts "The third color is: #{test[2]}"
+puts "The forth color is: #{test[3]}"
+puts "The fifth color is: #{test]}"
+puts "The sixth color is: #{test[5]}"
+puts "The seventh color is: #{test[6]}"
 end
-display_rainbow(['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])
+color=['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+display_rainbow(color)
